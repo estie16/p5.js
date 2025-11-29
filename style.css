@@ -1,0 +1,13 @@
+/* 4분할 2×2 배치 */
+#projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 12px;
+    column-gap: 40px;
+}
+
+.project a {
+    font-size: 18px;
+    color: purple;
+    text-decoration: underline;
+}
